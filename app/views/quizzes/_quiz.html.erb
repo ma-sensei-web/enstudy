@@ -1,0 +1,6 @@
+<div class="card">
+  <%= link_to image_tag(quiz.image, class: :card__img ), quiz_path(quiz.id)%>
+  <div class="card__body">
+    <%= link_to "#{quiz.title}", quiz_path(quiz.id), class: :card__title%>
+  </div>
+</div>
